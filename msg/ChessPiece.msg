@@ -1,0 +1,9 @@
+string Name
+string Color
+int32 Row
+int32 Col
+int32 PixelX
+int32 PixelY
+float32 X
+float32 Y
+float32 Height

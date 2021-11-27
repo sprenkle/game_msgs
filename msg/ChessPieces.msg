@@ -1,0 +1,2 @@
+string State
+ChessPiece[] ChessPieces
