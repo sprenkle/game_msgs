@@ -53,6 +53,7 @@ add_message_files(
   Gamefield.msg
   ChessPiece.msg
   ChessPieces.msg
+  PieceMove.msg
 )
 
 ## Generate services in the 'srv' folder
