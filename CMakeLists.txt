@@ -54,12 +54,18 @@ add_message_files(
   ChessPiece.msg
   ChessPieces.msg
   PieceMove.msg
+  GameStatus.msg
+  PlayerStatus.msg
+  ChessMove.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
   MovePieceCmd.srv
+  BestMove.srv
+  IsValidMove.srv
+  GetFEN.srv
 )
 
 ## Generate actions in the 'action' folder
